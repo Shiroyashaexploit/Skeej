@@ -163,7 +163,7 @@ Section:CreateButton("Ultra Instinct", function()
   local character = player.Character or player.CharacterAdded:Wait()
 
   local success, err = pcall(function()
-    local emote = ReplicatedStorage:WaitForChild("DanceAnimation") -- Replace with actual animation name
+    local emote = ReplicatedStorage:WaitForChild("Helicopter") -- Replace with actual animation name
     local clonedEmote = emote:Clone()
     clonedEmote.Parent = character
 
